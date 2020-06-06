@@ -13,13 +13,13 @@ module.exports = {
     themeConfig: {
         logo: '/logo.jpg',
         //gitc 仓库地址
-        //repo: 'https://github.com/',
+        repo: 'ftzz100/studyebook',
         // 如果你的文档不在仓库的根部
-        //docsDir: 'docs',
+        docsDir: 'docs',
         // 可选，默认为 master
-        //docsBranch: 'master',
+        docsBranch: 'master',
         // 默认为 true，设置为 false 来禁用
-        editLinks: true,
+        editLinks: false,
         lastUpdated: 'lastUpdate', // string | boolean
         //导航栏
         nav: [
@@ -50,7 +50,7 @@ module.exports = {
          },
         //sidebar: 'auto',
         //search: true,
-        //searchMaxSuggestions: 10,
+        
         
       },  
     
